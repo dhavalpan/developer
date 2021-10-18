@@ -1,0 +1,17 @@
+
+Punk_api.Punk_api_controller_display:
+  path: '/Punk_api'
+  defaults:
+    _controller: '\Drupal\Punk_api\Controller\Punk_apiController::display'
+    _title: 'display'
+  requirements:
+    _access: 'TRUE'
+
+Punk_api.Db_controller_display:
+  path: '/Db'
+  defaults:
+    _controller: '\Drupal\Punk_api\Controller\DbController::display'
+    _title: 'display'
+  requirements:
+    _access: 'TRUE'
+
